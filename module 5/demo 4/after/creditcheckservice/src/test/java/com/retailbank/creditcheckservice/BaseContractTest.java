@@ -9,6 +9,8 @@ import static org.mockito.Mockito.when;
 
 public class BaseContractTest {
 
+
+    //junit tests are used in provider side
     @Before
     public void setUp() {
         final CreditCheckService mock = mock(CreditCheckService.class);
